@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 //Написать программу, которая запрашивает у пользователя исходные данные
 //вычисляет результат по формуле (x*y)/(1+x) и печатает его на экране.
 
-using Tyuiu.kkhalid.sprint1.Task1.V25.Lib;
+using Tyuiu.kkhalid.Sprint1.Task1.V25.Lib;
 
-namespace Tyuiu.kkhalid.sprint1.Task1.V25
+namespace Tyuiu.kkhalid.Sprint1.Task1.V25
 {
     internal class Program
     {

@@ -1,8 +1,8 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 using System.Security;
-using Tyuiu.kkhalid.sprint1.Task1.V25.Lib;
-namespace Tyuiu.kkhalid.sprint1.Task1.V25.Test
+using Tyuiu.kkhalid.Sprint1.Task1.V25.Lib;
+namespace Tyuiu.kkhalid.Sprint1.Task1.V25.Test
 {
     [TestClass]
     public class DataServiceTest
