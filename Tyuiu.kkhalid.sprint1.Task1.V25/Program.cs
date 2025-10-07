@@ -26,7 +26,7 @@ namespace Tyuiu.kkhalid.Sprint1.Task1.V25
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
             Console.WriteLine("* Написать программу, которая вычисляет выражение                         *");
-            Console.WriteLine("* (x * y)/(1 + x)              и печатает результат на экране.            *");
+            Console.WriteLine("* (x*y)/(1+x)              и печатает результат на экране.                *");
             Console.WriteLine("*                                                                         *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");

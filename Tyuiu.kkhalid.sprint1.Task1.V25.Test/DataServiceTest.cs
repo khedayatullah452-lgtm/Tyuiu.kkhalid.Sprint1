@@ -13,7 +13,7 @@ namespace Tyuiu.kkhalid.Sprint1.Task1.V25.Test
           DataService ds = new DataService();
             double x = 2.0;
             double y = 3.0;
-            var res  = ds. Calcualate(x, y);
+            var res = ds.calculate(x, y);
             Assert .AreEqual(2, res);
             
         }
