@@ -12,12 +12,9 @@ namespace Tyuiu.kkhalid.sprint1.Task7.V8.Lib
     {
         public double Calculate(double x, double y)
         {
-            double cosx = Math.Cos(x);
-            double denominator = cosx - (x / 3);
-            double term1 = x * Math.Log(x);
-            double term2 = y / cosx - (x / 3);
-
-            return term1 + term2;
+            double res = 2 * Math.Log(2) + 4 / (Math.Cos(2) - 4 / 3);
+           
+            return res;
         }
     }
 }

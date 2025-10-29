@@ -11,9 +11,9 @@ using Tyuiu.kkhalid.sprint1.Task7.V8.Lib;
 //Написать программу, которая запрашивает у пользователя исходные данные,
 //вычисляет результат по формуле и печатает его на экране. Ответ округлите до 3 знаков после запятой.
 //  формула
-//               
-//( z=xlnx + y/cox-x/3)
-//            
+//                   y      
+//( Z = x*lnx + --------------- )
+//                cosx - x / 3
 
 namespace Tyuiu.kkhalid.sprint1.Task7.V8
 {
@@ -25,8 +25,14 @@ namespace Tyuiu.kkhalid.sprint1.Task7.V8
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
+            Console.WriteLine("                 y        ");                                             
+            Console.WriteLine("z = x * lnx + ----------- ");
+            Console.WriteLine("              cosx - x / 3 ");
+            
 
-            double x, y;
+
+
+           double x, y;
             Console.WriteLine("Введите Значение X:");
             x = Convert.ToDouble(Console.ReadLine());
 
@@ -37,7 +43,7 @@ namespace Tyuiu.kkhalid.sprint1.Task7.V8
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine("z = xlnx + y / cox - x / 3) = " + ds.Calculate(x,y));
+            Console.WriteLine( ds.Calculate(x,y));
 
             Console.ReadKey();
 
