@@ -12,9 +12,11 @@ namespace Tyuiu.kkhalid.sprint1.Task6.V14.Lib
     {
         public bool CheckLowerCaseRusLetters(string value)
         {
-            return (string.IsNullOrEmpty(value));
+            if (string.IsNullOrEmpty(value)) ;
+            {
+                return true;
+            }
 
         }
-
     }
 }

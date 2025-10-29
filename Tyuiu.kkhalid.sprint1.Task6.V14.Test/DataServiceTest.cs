@@ -12,11 +12,11 @@ namespace Tyuiu.kkhalid.sprint1.Task6.V14.Test
         [TestMethod]
         public void ValidString()
         {
-            string input  = ("я люблю путешествовать на природе");
+            string strLetters  = ("я люблю путешествовать на природе");
             
             DataService ds = new DataService();
 
-            bool result = ds.CheckLowerCaseRusLetters(input);
+            bool result = ds.CheckLowerCaseRusLetters(strLetters);
             Assert.IsTrue(result);
 
         }
