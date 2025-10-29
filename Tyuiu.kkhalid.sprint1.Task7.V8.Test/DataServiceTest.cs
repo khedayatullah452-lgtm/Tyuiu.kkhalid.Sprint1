@@ -15,9 +15,9 @@ namespace Tyuiu.kkhalid.sprint1.Task7.V8.Test
         public void ValidExpression()
         {
             DataService ds = new DataService();
-            double x = 10;
-            double y = 20;
-            double expected = 10 * Math.Log(10) + 20 / (Math.Cos(10) - 10 / 3);
+            double x = 2;
+            double y = 4;
+            double expected = 2* Math.Log(2) + 4 / (Math.Cos(2) - 4 / 3);
             var res = ds.Calculate(x, y);
             Assert.AreEqual(expected ,res,30 );
             
