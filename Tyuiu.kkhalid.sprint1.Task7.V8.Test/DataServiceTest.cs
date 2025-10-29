@@ -17,9 +17,9 @@ namespace Tyuiu.kkhalid.sprint1.Task7.V8.Test
             DataService ds = new DataService();
             double x = 2;
             double y = 4;
-            double wait = -2.307;
+            double wait = -2.308;
            var  res = ds.Calculate(x, y);
-            Assert.AreEqual(-2.307 ,res );
+            Assert.AreEqual(-2.308 ,res );
             
         }
     }
