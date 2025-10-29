@@ -27,7 +27,7 @@ namespace Tyuiu.kkhalid.sprint1.Task7.V8
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("                 y        ");                                             
             Console.WriteLine("z = x * lnx + ----------- ");
-            Console.WriteLine("              cosx - x / 3 ");
+            Console.WriteLine("              cosx - x/3 ");
             
 
 
@@ -42,9 +42,9 @@ namespace Tyuiu.kkhalid.sprint1.Task7.V8
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
-
-            Console.WriteLine( ds.Calculate(x,y));
-
+            Console.WriteLine("                y                 ");
+            Console.WriteLine("z = x*lnx + ---------- =" + ds.Calculate(x,y));
+            Console.WriteLine("            cosx - x/3                                ");
             Console.ReadKey();
 
 

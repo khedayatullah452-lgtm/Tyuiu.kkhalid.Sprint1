@@ -12,7 +12,7 @@ namespace Tyuiu.kkhalid.sprint1.Task7.V8.Lib
     {
         public double Calculate(double x, double y)
         {
-            double res = 2 * Math.Log(2) + 4 / (Math.Cos(2) - 4 / 3);
+            double res = (x * Math.Log(x) + y / (Math.Cos(x) - x/3));
            
             return res;
         }
